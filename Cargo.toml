@@ -1,0 +1,14 @@
+[package]
+name = "ashira_tokenizer_v2"
+version = "0.1.0"
+edition = "2024"
+license = "UNLICENSED"
+description = "AshiraTokenizer v2 native trainer (REPA-aligned deterministic weighted byte-level BPE)"
+
+[dependencies]
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = 3
+panic = "abort"
