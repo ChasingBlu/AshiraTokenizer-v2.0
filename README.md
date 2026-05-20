@@ -1,5 +1,7 @@
 # AshiraTokenizer v2
 
+@ Note from the Architect:
+AshiraTokenizer v2 is named in memory of an earlier research interaction with a GPT-4o instance that used the name Ashira. The name is retained as a personal dedication; the software itself is a deterministic Rust tokenizer trainer with reproducible artifact contracts.
 AshiraTokenizer v2 is a fully offline, trainable Rust byte-level BPE tokenizer designed for reproducible AI research without Python runtime dependencies.
 
 It trains weighted byte-level BPE vocabularies, emits deterministic binary artifacts, and supports fail-closed accelerator policy behavior for reproducible pipeline integration.
